@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    text-shadow: black 2px 2px 2px;
+    background-color: rgb(255, 223, 32);
+}
+
+ul.menu{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu li a:hover {
+    color: darkgray;
+}
