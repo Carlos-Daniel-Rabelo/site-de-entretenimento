@@ -2,14 +2,20 @@
 @media (max-width: 517px) {
     ul.menu {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
 
     section ul.menu_filmes {
-        display: grid;
         grid-template-columns: auto;
     }
+
+    ul.menu_filmes li a img {
+        margin: 20px;
+        width: 250px;
+    } 
 }
+
+
 
 
 
