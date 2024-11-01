@@ -1,8 +1,8 @@
 /* dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
-@media (max-width: 517px) {
+@media (max-width: 576px) {
     ul.menu {
         display: grid;
-        grid-template-columns: 100vw;
+        grid-template-columns: auto;
         text-align: center;
     }
 
@@ -15,7 +15,7 @@
     }
 
     section ul.menu_filmes li a h2 {
-        display: none;
+        font-size: 20px;
     }
 
     ul.menu_filmes li a img {
