@@ -2,7 +2,8 @@
 @media (max-width: 517px) {
     ul.menu {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
+        text-align: center;
     }
 
     section ul.menu_filmes {
