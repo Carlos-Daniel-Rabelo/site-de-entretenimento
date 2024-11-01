@@ -2,16 +2,23 @@
 @media (max-width: 517px) {
     ul.menu {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100vw;
         text-align: center;
+    }
+
+    ul.menu li a{
+        display: block;
     }
 
     section ul.menu_filmes {
         grid-template-columns: auto;
     }
 
+    section ul.menu_filmes li a h2 {
+        display: none;
+    }
+
     ul.menu_filmes li a img {
-        margin: 20px;
         width: 250px;
     } 
 }
