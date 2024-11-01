@@ -1,0 +1,28 @@
+/* dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
+@media (max-width: 517px) {
+    ul.menu {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    section ul.menu_filmes {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+
+
+/* dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
+/* @media (max-width: 768px) {} */
+
+/* dispositivos médios (tablets, menos de 992px) */
+/* @media (max-width: 992px) {} */
+
+/* dispositivos grandes (desktops, menos de 1200px) */
+/* @media (max-width: 1200px) */
+
+/* dispositivos extra grandes (desktops grandes) */
+/* 1200px ou mais não tem breakpoint */
+
