@@ -24,21 +24,21 @@ html{
 }
 
 .header a:hover h1{
-    color: coral;
+    color: red;
 }
 
 .menu_filmes {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 20px 40px;
     gap: 20px;
 }
 
-.filme a {
+.filme h2 {
     font-size: 18px;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
 }
 
