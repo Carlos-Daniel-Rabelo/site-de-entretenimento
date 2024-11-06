@@ -28,17 +28,24 @@ html{
 }
 
 .menu_filmes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
     margin: 20px 40px;
     gap: 20px;
 }
 
+.filme a {
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+}
+
 .filme img {
-    border-radius: 10px;
+    height: 407px;
+    width: 300px;
+    border-radius: 10px;    
 }
 
 .container {
