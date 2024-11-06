@@ -5,85 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Flix</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/style.css">
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <h1>Super Flix</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">INÍCIO</a></li>
-                <li><a href="#">PROGRAMAÇÃO</a></li>
-                <li><a href="#">TRAILER</a></li>
-                <li><a href="#">NOTÍCIAS</a></li>
-                <li><a href="#">SÉRIES</a></li>
-                <li><a href="#">TELEVISÃO</a></li>
-                <li><a href="#">FILMES ONLINE</a></li>
-                <li><a href="#">NOVELAS</a></li>
-                <li><a href="#">MINHA CONTA</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header-container">
+            <a href="/">
+                <h1 class="logo">Super Flix</h1>
+            </a>
+
+            <nav>
+                <input type="checkbox" id="menu-hamburger">
+
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="#inicio">INÍCIO</a></li>
+                    <li><a href="#filmes">FILMES</a></li>
+                    <li><a href="#projects">SERIES</a></li>
+                    <li><a href="#contact">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section>
         <ul class="menu_filmes">
             <li>
-                <a href="a_forja.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/img/67/e4/67e451cd6d1ceb7a0d2d5cdd4ef50317.jpg"
                         alt="A Forja - O Poder da Transformação">
-                    <h2>O Poder da Transformação</h2>
-                </a>
+                    <a href="a_forja.html">
+                        <h2>O Poder da Transformação</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="citadel.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/img/55/70/557013f66fd6dca27c167750644f9267.jpg"
                         alt="Citadel: Honey Bunny">
-                    <h2>Citadel: Honey Bunny</h2>
-                </a>
+                    <a href="citadel.html">
+                        <h2>Citadel: Honey Bunny</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="nao_se_mexa.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/img/03/be/03bef7b6575f451f932565b5f41ffefb.jpg"
                         alt="Não Se Mexa">
-                    <h2>Não Se Mexa</h2>
-                </a>
+                    <a href="nao_se_mexa.html">
+                        <h2>Não Se Mexa</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="sorria_2.html">
+                <div class="filme">
                     <img src="https://br.web.img2.acsta.net/c_310_420/img/0d/0a/0d0a25221201692c70849bd03fa1ba3f.PNG"
                         alt="Sorria 2">
-                    <h2>Sorria 2</h2>
-                </a>
+                    <a href="sorria_2.html">
+                        <h2>Sorria 2</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="moana_2.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/img/6c/65/6c655a991d18bb10555c17996543245e.PNG"
                         alt="Moana 2">
-                    <h2>Moana 2</h2>
-                </a>
+                    <a href="moana_2.html">
+                        <h2>Moana 2</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="coringa.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/img/f2/30/f230e8db0c9d1ccb4ee8f243fcde7705.png"
                         alt="Coringa: Delírio a Dois">
-                    <h2>Coringa: Delírio a Dois</h2>
-                </a>
+                    <a href="coringa.html">
+                        <h2>Coringa: Delírio a Dois</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="hancock_2.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/pictures/16/01/15/17/44/444109.jpg"
                         alt="Hancock 2">
-                    <h2>Hancock 2</h2>
-                </a>
+                    <a href="hancock_2.html">
+                        <h2>Hancock 2</h2>
+                    </a>
+                </div>
             </li>
             <li>
-                <a href="o_senhor_dos_aneis.html">
+                <div class="filme">
                     <img src="https://br.web.img3.acsta.net/c_310_420/pictures/21/06/11/09/55/5971700.jpg"
                         alt="O Senhor dos Anéis: A Guerra dos Rohirrim">
-                    <h2>O Senhor dos Anéis</h2>
-                </a>
+                    <a href="o_senhor_dos_aneis.html">
+                        <h2>O Senhor dos Anéis</h2>
+                    </a>
+                </div>
             </li>
         </ul>
     </section>
