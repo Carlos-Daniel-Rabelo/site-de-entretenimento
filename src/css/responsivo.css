@@ -1,123 +1,31 @@
-/* dispositivos grandes (desktops, menos de 1200px) */
-@media (max-width: 1800px) {
-    .menu_filmes img {
-        width: 200px;
-    }
-
-    .menu_filmes a h2 {
-        display: none;
-    }
-
-    .container iframe {
-        width: 100%;
-    }
-
-    .sinopse img {
-        float: left;
-        width: px;
-    }
-}
-
-
-/* dispositivos médios (tablets, menos de 992px) */
-@media (max-width: 992px) {
-
-    ul.menu_filmes{
-        display: grid;
-        grid-template-columns: auto auto auto
-        ;
-    }
-
-    ul.menu_filmes li a img {
-        width: 170px;
-    }
-
-    ul.menu_filmes li a h2 {
-        display: none;
-    }
-
-    .container iframe {
-        width: 100%;
-    }
-
-    .sinopse img{
-        width: 100%;
-    }
-
-    .descricao {
-        padding: 20px;
-    }
-}
-
-
 /* dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
 @media (max-width: 768px) {
-    ul.menu {
-        display: grid;
-        grid-template-columns: auto auto auto;
+    
+    .container {
+        padding: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
-    section ul.menu_filmes{
+    .sinopse {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
+    }
+
+    .capa img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        padding: 20px 0px;
+    }
+
+    .trailer iframe{
+        width: 100%;
         padding: 20px;
     }
-
-    section ul.menu_filmes li a img{
-        width: 100%;
-    }
-
-    .container iframe {
-        width: 100%;
-    }
-
-    .conteudo{
-        border-radius: 10px;
-    }
-
-    .conteudo img {
-        border-radius: 10px;
-        height: 250px;
-        float: left;
-        margin-right: 20px;
-    }
-
-    .descricao {
-        text-align: center;
-    }
 }
-
-/* dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
-@media (max-width: 576px) {
-    ul.menu {
-        display: grid;
-        grid-template-columns: auto;
-        text-align: center;
-    }
-
-    ul.menu li a{
-        display: block;
-    }
-
-    section ul.menu_filmes {
-        grid-template-columns: auto;
-    }
-
-    section ul.menu_filmes li a h2 {
-        font-size: 20px;
-    }
-
-    ul.menu_filmes li a {
-        width: 250px;
-    } 
-}
-
-
-
-
-
-
 
 
 /* dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
@@ -131,4 +39,3 @@
 
 /* dispositivos extra grandes (desktops grandes) */
 /* 1200px ou mais não tem breakpoint */
-

@@ -48,9 +48,9 @@ html{
     border-radius: 10px;    
 }
 
-.container {
+/* .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     justify-content: center;
     gap: 20px;
     margin: 20px;
@@ -70,7 +70,7 @@ img {
 
 .conteudo {
     display: flex;
-}
+} */
 
 .sinopse {
     margin: 0 20px;
