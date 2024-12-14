@@ -75,3 +75,15 @@ img {
 .sinopse {
     margin: 0 20px;
 } 
+
+footer{
+    height: 20vh;
+    position: relative;
+}
+
+.icone{
+    height: 50px;
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+}
