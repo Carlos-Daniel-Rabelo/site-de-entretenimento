@@ -45,7 +45,12 @@ html{
 .filme img {
     height: 407px;
     width: 300px;
-    border-radius: 10px;    
+    border-radius: 10px; 
+    transition: ease 1s; 
+}
+
+.filme img:hover{
+    box-shadow:red 2px 2px 5px;
 }
 
 .sinopse {
