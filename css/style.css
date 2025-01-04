@@ -63,7 +63,7 @@ footer{
     background-image: linear-gradient(45deg, #63466B, #0E7A78, #FDB83E, black);
 }
 
-.icone.whatsapp{
+.whatsapp{
     height: 35px;
     position: fixed;
     left: 50px;
@@ -71,11 +71,11 @@ footer{
     transition: ease-in-out 0.5s;
 }
 
-.icone.whatsapp:hover{
+.whatsapp:hover{
     height: 50px;
 }
 
-.icone.seta-para-cima{
+.seta-para-cima{
     height: 35px;
     position: absolute;
     right: 50px;
