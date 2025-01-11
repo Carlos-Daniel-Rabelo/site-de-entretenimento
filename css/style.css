@@ -77,7 +77,7 @@ footer{
 
 .seta-para-cima{
     height: 35px;
-    position: absolute;
+    position: fixed;
     right: 50px;
     bottom: 30px;
     animation: downarrow 0.6s infinite alternate ease-in-out;
