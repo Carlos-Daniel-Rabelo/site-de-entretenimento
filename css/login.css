@@ -9,10 +9,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 form {
     width: 410px;
     padding: 30px;
     background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9)
+}
+
+input {
+    height: 30px;
+    padding: 10px;
 }
