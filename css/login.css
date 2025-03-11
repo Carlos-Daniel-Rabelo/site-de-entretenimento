@@ -5,29 +5,25 @@
 }
 
 body {
-    background-image: url('../img/login.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
     width: 100vw;
     height: 100vh;
 }
 
 form {
+    border: 1px solid black;
     width: 320px;
     padding: 30px;
-    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
+    border-radius: 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background:rgba(255, 255, 255, 0.9)
 }
 
 h1 {
